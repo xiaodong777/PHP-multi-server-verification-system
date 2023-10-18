@@ -13,7 +13,7 @@ $token = $data['token'] ?? '';
     <title>验证成功</title>
     <script>
         setTimeout(function(){
-            window.location.href = 'https://目的网站.com/smartbi/vision/index.jsp?token=<?php echo $token; ?>';
+            window.location.href = 'https://目的网站.com/index.jsp?token=<?php echo $token; ?>';
         }, 300);
     </script>
 </head>
